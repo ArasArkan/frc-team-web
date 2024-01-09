@@ -1,0 +1,11 @@
+Sayfa Düzeni
+----------------------------
+top section                 
+biz kimiz                   
+neden biz                   
+projelerimiz                
+sponsorlarımız              
+bize ulaşın                 
+----------------------------
+
+sectionlar kaydırma destekli olacak!

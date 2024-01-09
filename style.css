@@ -1,0 +1,58 @@
+/* Imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=IBM+Plex+Serif&family=League+Spartan&family=Teko&display=swap');
+
+/* Element Styles */
+
+* {
+    transition: all 0.4s ease-out 0.1s;
+}
+
+body{
+    height: 675vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* Class Styles */
+
+.top-section{
+    height: 75vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+}
+
+.bottom-section{
+    height: 100vh;
+    background-color: #e7ebee;
+}
+
+/* Other Styles */
+
+#ts-title{
+    font-size: 7.5vh;
+    font-family: 'Teko', sans-serif;
+    margin-bottom: 0.5vh;
+}
+
+#ts-description{
+    margin-top: 0.5vh;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 2.5vh;
+    font-weight: 900    ;
+    font-family: 'Abel', sans-serif;
+}
+
+/* Animations */
+
+/* Other Devices */
+
+@media screen and (max-width: 820px) {}
+
+@media screen and (min-width: 820px) and (max-width: 1000px) {
+}
