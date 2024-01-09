@@ -9,9 +9,10 @@
 }
 
 body{
-    height: 675vh;
+    height: 575vh;
     width: 100%;
     overflow-x: hidden;
+    margin: 0;
 }
 
 /* Class Styles */
@@ -26,9 +27,9 @@ body{
     flex-direction: column;
 }
 
-.bottom-section{
+.page{
     height: 100vh;
-    background-color: #e7ebee;
+    background-color: aqua;
 }
 
 /* Other Styles */
