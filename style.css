@@ -17,6 +17,26 @@ body{
 
 /* Class Styles */
 
+.page{
+    height: 100vh;
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+.title{
+    font-size: 7.5vh;
+    margin-bottom: 0.5vh;
+    margin-top: 0vh;
+}
+
+.description{
+    margin-top: 0.5vh;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 2.5vh;
+    font-weight: 900;
+}
+
 .top-section{
     height: 75vh;
     text-align: center;
@@ -27,9 +47,14 @@ body{
     flex-direction: column;
 }
 
-.page{
+.bk-section{
     height: 100vh;
-    background-color: aqua;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
 }
 
 /* Other Styles */
@@ -45,7 +70,7 @@ body{
     margin-right: 10%;
     margin-left: 10%;
     font-size: 2.5vh;
-    font-weight: 900    ;
+    font-weight: 900;
     font-family: 'Abel', sans-serif;
 }
 
