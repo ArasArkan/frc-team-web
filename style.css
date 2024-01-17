@@ -15,12 +15,16 @@ body{
     margin: 0;
 }
 
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+
 /* Class Styles */
 
 .page{
     height: 100vh;
-    background-color: aqua;
-    border: 2px solid black;
+    background-color: rgb(255, 255, 255);
 }
 
 .title{
@@ -45,16 +49,13 @@ body{
     justify-content: center;
     margin: auto;
     flex-direction: column;
+    background-image: url(assets/imgs/team-photo.webp);
+    background-position: 7.5%;
+    background-size: cover;
 }
 
 .bk-section{
     height: 100vh;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    flex-direction: column;
 }
 
 /* Other Styles */
@@ -63,6 +64,7 @@ body{
     font-size: 7.5vh;
     font-family: 'Teko', sans-serif;
     margin-bottom: 0.5vh;
+    color: white;
 }
 
 #ts-description{
@@ -72,6 +74,15 @@ body{
     font-size: 2.5vh;
     font-weight: 900;
     font-family: 'Abel', sans-serif;
+    color: white;
+}
+
+#bk-title{
+    font-size: 7.5vh;
+    font-family: 'Teko', sans-serif;
+    margin-bottom: 0.5vh;
+    color: #263238;
+
 }
 
 /* Animations */
